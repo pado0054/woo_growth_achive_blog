@@ -33,6 +33,9 @@ export interface SiteConfig {
 
   navigationStyle?: types.NavigationStyle
   navigationLinks?: Array<NavigationLink>
+
+  // ✅ 새로 추가된 부분
+  notionDatabases?: Array<{ id: string; name: string }>
 }
 
 export interface NavigationLink {
